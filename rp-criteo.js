@@ -19,11 +19,11 @@
       return '';
     };
     criteo = function() {
-      var crtg_content, crtg_cookiename, crtg_nid, crtg_rnd, crtg_script, crtg_url, crtg_varname;
+      var crtg_cookiename, crtg_nid, crtg_rnd, crtg_script, crtg_url, crtg_varname;
       crtg_nid = '1842';
       crtg_cookiename = 'cto_trulia';
       crtg_varname = 'crtg_content';
-      crtg_content = crtg_getCookie(crtg_cookiename);
+      window.crtg_content = crtg_getCookie(crtg_cookiename);
       crtg_rnd = Math.floor(Math.random() * 99999999999);
       crtg_url = location.protocol + '//rtax.criteo.com/delivery/rta/rta.js?netId=' + escape(crtg_nid);
       crtg_url += '&cookieName=' + escape(crtg_cookiename);
