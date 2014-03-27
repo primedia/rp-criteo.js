@@ -1,15 +1,15 @@
 {
   "name": "rp-criteo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Init Criteo JS",
   "homepage": "https://github.com/primedia/preserves",
   "jam": {
     "dependencies": {
       "jquery": null
     },
-    "main": "rp-crit-eo.js",
+    "main": "rp-criteo.js",
     "include": [
-      "rp-crit-eo.js"
+      "rp-criteo.js"
     ]
   },
   "author": {
