@@ -15,7 +15,6 @@ define ['jquery'], ($) ->
       x = x.replace(/^\s+|\s+$/g, '')
       return unescape(y)  if x is CRTG_COOKIENAME
       i++
-    # TODO: why return blank string?
     ''
 
   criteoScript = ->
