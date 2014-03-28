@@ -1,6 +1,6 @@
 {
-  "name": "rp-criteo",
-  "version": "0.0.3",
+  "name": "rp-crit-eo",
+  "version": "0.0.4",
   "main": "rp-crit-eo.js",
   "dependencies": {
     "jquery": null
