@@ -31,7 +31,7 @@ define ['jquery'], ($) ->
   criteoUrl = ->
     crtg_url =  "#{CRTG_URI}?netId=#{CRTG_NID}"
     crtg_url += "&cookieName=#{CRTG_COOKIENAME}"
-    crtg_url += "&varNamX#{CRTG_VARNAME}"
+    crtg_url += "&varName#{CRTG_VARNAME}"
     crtg_url
 
   appendTag = (script) ->

@@ -38,7 +38,7 @@
       var crtg_url;
       crtg_url = "" + CRTG_URI + "?netId=" + CRTG_NID;
       crtg_url += "&cookieName=" + CRTG_COOKIENAME;
-      crtg_url += "&varNamX" + CRTG_VARNAME;
+      crtg_url += "&varName" + CRTG_VARNAME;
       return crtg_url;
     };
     appendTag = function(script) {
