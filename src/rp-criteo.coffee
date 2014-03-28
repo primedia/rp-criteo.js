@@ -37,7 +37,7 @@ define ['jquery'], ($) ->
   appendTag = (script) ->
     if document.getElementsByTagName('head').length > 0
       document.getElementsByTagName('head')[0].appendChild script
-    if document.getElementsByTagName('body').length > 0
+    else if document.getElementsByTagName('body').length > 0
       document.getElementsByTagName('body')[0].appendChild script
 
   getCriteo = ->

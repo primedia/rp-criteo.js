@@ -43,9 +43,8 @@
     };
     appendTag = function(script) {
       if (document.getElementsByTagName('head').length > 0) {
-        document.getElementsByTagName('head')[0].appendChild(script);
-      }
-      if (document.getElementsByTagName('body').length > 0) {
+        return document.getElementsByTagName('head')[0].appendChild(script);
+      } else if (document.getElementsByTagName('body').length > 0) {
         return document.getElementsByTagName('body')[0].appendChild(script);
       }
     };
